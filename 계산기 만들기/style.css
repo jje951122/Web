@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    width:300px;
+    display: block;
+    margin: 0 auto;
+}
+.viewer{
+    display : grid;
+    grid-template-columns:repeat(4,1fr);
+}
+input, button{
+    height:70px;
+    outline : none;
+}
+input{
+    text-align: right;
+    background: white;
+    width:100%;
+    font-size:3rem;
+}
+button{
+    font-size:2rem;
+}
+button:hover {    
+    opacity: .5;
+}
+.ac{
+    grid-column: 1/4;
+    background:salmon;
+}
+.zero{
+    grid-column: 1/3;
+}
