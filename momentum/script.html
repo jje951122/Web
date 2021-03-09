@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="="X-UA-Compatible content="ie=edge">
+        <title>Momentum</title>
+        <link rel="stylesheet" href = "style.css">
+    </head>
+    <body>
+        <body>
+            <header class="icon">😎</header>
+            <div class="container">
+              <div class="whats-your-name__container" id="js-whats-your-container">
+                <main class="whats-your-name">
+                  <span class="whats-your-name__text">당신의 이름을 알고 싶어요!</span>
+                  <form class="form" id="js-name-form">
+                    <input
+                      type="text"
+                      class="input"
+                      id="js-name-input"
+                      autocomplete="off"
+                    />
+                  </form>
+                </main>
+              </div>
+            </div>
+            <div class="greeting__container disappear" id="js-greeting-container">
+                <main class="greeting">
+                    <button class="button button--todo" id="js-btn">To Do</button>
+                    <div class="time" id="js-current-time">00:00</div>
+                    <div class="greeting__greet-and-name">
+                      <span class="greet" id="js-greet-text"></span>
+                      <span class="name" id="js-name"></span>
+                      <span class="sir">님</span>
+                    </main>
+                  </div>
+                  <div class="todo__container disappear" id="js-todo-container">
+                    <form class="form form--todo" id="js-todo-form">
+                      <input
+                      style="color:white";
+                        type="text"
+                        class="input--todo"
+                        placeholder="해야할 일을 적어주세요!"
+                        id="js-todo-input"
+                        autocomplete="off"
+                      />
+                    </form>
+                    <ul class="todo-lists" id="js-todo-ul"></ul>
+                  </div>
+            </div>
+        <script src="greeting.js"></script>
+        <script src="clock.js"></script>
+        <script src="todos.js"></script>
+    </body>
+</html>
